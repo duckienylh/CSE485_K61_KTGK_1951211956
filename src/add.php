@@ -87,7 +87,7 @@ if (isset($_POST['btnsubmit'])) {
     if ($result > 0) {
         header("Location:index.php");
     } else {
-        echo "Lỗi!";
+        header("Location:error.php");
     }
     //Bước 04: Đóng kết nối
     mysqli_close($conn);

@@ -113,7 +113,7 @@ if(isset($_POST['btnupdate']))
         
         header("Location:index.php");
     } else {
-        echo "Lỗi!";
+        header("Location:error.php");
     }
     }
 ?>

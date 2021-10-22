@@ -12,7 +12,7 @@ $id = $_GET['id'];
     if($result > 0){
         header("Location:index.php");
     }else{
-        echo "Lỗi!";
+        header("Location:error.php");
     }
 
 
