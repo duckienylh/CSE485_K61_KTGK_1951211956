@@ -46,11 +46,16 @@ include './config.php';
         </div>
 
         <div class="form-group row">
-            <label for="empMobile" class="col-sm-2 col-form-label">trạng thái</label>
-            <div class="col-sm-10">
-                <input type="text" class="form-control" name="ex-status">
-            </div>
+        <label for="" class="col-sm-2 col-form-label">Trạng thái</label>
+        <div class="col-sm-10">
+            <select name="ex-status">
+                <option value="Pending">Pending</option>
+                <option value="Created">Created</option>
+                <option value="Started">Started</option>
+                <option value="Completed">Completed</option>
+            </select>
         </div>
+    </div>
 
         <div class="form-group row">
             <label for="empMobile" class="col-sm-2 col-form-label">mã truy cập</label>
